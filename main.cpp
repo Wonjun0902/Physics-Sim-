@@ -266,6 +266,9 @@ int main()
         ImGui::Spacing();
         ImGui::TextWrapped("The red sphere's path (geodesic) is calculated using a 4th-order Runge-Kutta integrator applying the Schwarzschild metric's effective potential.");
         ImGui::TextWrapped("Try increasing the mass. Notice how the spacetime grid deepens and the red sphere is pulled into a tighter orbit!");
+        ImGui::TextWrapped("General relativity is published by Albert Einstein in 1915–1916");
+        ImGui::TextWrapped("It  is the modern geometric theory of gravitation that describes gravity not as a force, but as a curvature of four-dimensional spacetime caused by mass and energy.");
+        ImGui::TextWrapped("It generalizes special relativity, explaining that massive objects warp spacetime, affecting the path of objects and the flow of time");
         ImGui::End();
 
         // --- Panel 3: Interactive Quiz (Top Right) ---
