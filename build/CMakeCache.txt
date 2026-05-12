@@ -300,6 +300,10 @@ FETCHCONTENT_SOURCE_DIR_IMGUI:PATH=
 // for raylib
 FETCHCONTENT_SOURCE_DIR_RAYLIB:PATH=
 
+//When not empty, overrides where to find pre-populated content
+// for rlimgui
+FETCHCONTENT_SOURCE_DIR_RLIMGUI:PATH=
+
 //Enables UPDATE_DISCONNECTED behavior for all content population
 FETCHCONTENT_UPDATES_DISCONNECTED:BOOL=OFF
 
@@ -308,6 +312,9 @@ FETCHCONTENT_UPDATES_DISCONNECTED_IMGUI:BOOL=OFF
 
 //Enables UPDATE_DISCONNECTED behavior just for population of raylib
 FETCHCONTENT_UPDATES_DISCONNECTED_RAYLIB:BOOL=OFF
+
+//Enables UPDATE_DISCONNECTED behavior just for population of rlimgui
+FETCHCONTENT_UPDATES_DISCONNECTED_RLIMGUI:BOOL=OFF
 
 //Git command line client
 GIT_EXECUTABLE:FILEPATH=C:/Users/28WonjunY/Git/cmd/git.exe

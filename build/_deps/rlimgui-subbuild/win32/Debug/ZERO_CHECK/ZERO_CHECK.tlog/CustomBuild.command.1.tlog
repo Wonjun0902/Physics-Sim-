@@ -1,0 +1,10 @@
+^C:\USERS\28WONJUNY\PHYSICS SIM\BUILD\_DEPS\RLIMGUI-SUBBUILD\CMAKEFILES\955385BA7EB051DF5DE9C40F1A81DB5E\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" "-SC:/Users/28WonjunY/Physics Sim/build/_deps/rlimgui-subbuild" "-BC:/Users/28WonjunY/Physics Sim/build/_deps/rlimgui-subbuild" --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file "C:/Users/28WonjunY/Physics Sim/build/_deps/rlimgui-subbuild/rlimgui-populate.slnx"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

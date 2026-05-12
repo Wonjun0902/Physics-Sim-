@@ -1,0 +1,22 @@
+# CMake generation dependency list for this directory.
+C:/Program Files/CMake/share/cmake-4.3/Modules/CMakePushCheckState.cmake
+C:/Program Files/CMake/share/cmake-4.3/Modules/CPack.cmake
+C:/Program Files/CMake/share/cmake-4.3/Modules/CPackComponent.cmake
+C:/Program Files/CMake/share/cmake-4.3/Modules/CheckCSourceCompiles.cmake
+C:/Program Files/CMake/share/cmake-4.3/Modules/FindOpenGL.cmake
+C:/Program Files/CMake/share/cmake-4.3/Modules/FindPackageHandleStandardArgs.cmake
+C:/Program Files/CMake/share/cmake-4.3/Modules/FindPackageMessage.cmake
+C:/Program Files/CMake/share/cmake-4.3/Modules/GNUInstallDirs.cmake
+C:/Program Files/CMake/share/cmake-4.3/Templates/CPackConfig.cmake.in
+C:/Users/28WonjunY/Physics Sim/build/_deps/raylib-src/cmake/CompileDefinitions.cmake
+C:/Users/28WonjunY/Physics Sim/build/_deps/raylib-src/cmake/GlfwImport.cmake
+C:/Users/28WonjunY/Physics Sim/build/_deps/raylib-src/cmake/InstallConfigurations.cmake
+C:/Users/28WonjunY/Physics Sim/build/_deps/raylib-src/cmake/JoinPaths.cmake
+C:/Users/28WonjunY/Physics Sim/build/_deps/raylib-src/cmake/LibraryConfigurations.cmake
+C:/Users/28WonjunY/Physics Sim/build/_deps/raylib-src/cmake/LibraryPathToLinkerFlags.cmake
+C:/Users/28WonjunY/Physics Sim/build/_deps/raylib-src/cmake/PackConfigurations.cmake
+C:/Users/28WonjunY/Physics Sim/build/_deps/raylib-src/cmake/PopulateConfigVariablesLocally.cmake
+C:/Users/28WonjunY/Physics Sim/build/_deps/raylib-src/cmake/raylib-config-version.cmake
+C:/Users/28WonjunY/Physics Sim/build/_deps/raylib-src/cmake/raylib-config.cmake
+C:/Users/28WonjunY/Physics Sim/build/_deps/raylib-src/raylib.pc.in
+C:/Users/28WonjunY/Physics Sim/build/_deps/raylib-src/src/CMakeLists.txt
