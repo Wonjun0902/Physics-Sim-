@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/Users/28WonjunY/Physics Sim/build/_deps/imgui-subbuild/CMakeFiles/imgui-populate"
+		},
+		{
+			"file" : "C:/Users/28WonjunY/Physics Sim/build/_deps/imgui-subbuild/CMakeFiles/dbe9f5902c90bfa94b2d42d1ba31bfa0/imgui-populate.rule"
+		},
+		{
+			"file" : "C:/Users/28WonjunY/Physics Sim/build/_deps/imgui-subbuild/CMakeFiles/b02f6399437ed77affc16d22a38e926f/imgui-populate-complete.rule"
+		},
+		{
+			"file" : "C:/Users/28WonjunY/Physics Sim/build/_deps/imgui-subbuild/CMakeFiles/b013429a33087d59b63d8b3f0324bea6/imgui-populate-build.rule"
+		},
+		{
+			"file" : "C:/Users/28WonjunY/Physics Sim/build/_deps/imgui-subbuild/CMakeFiles/b013429a33087d59b63d8b3f0324bea6/imgui-populate-configure.rule"
+		},
+		{
+			"file" : "C:/Users/28WonjunY/Physics Sim/build/_deps/imgui-subbuild/CMakeFiles/b013429a33087d59b63d8b3f0324bea6/imgui-populate-download.rule"
+		},
+		{
+			"file" : "C:/Users/28WonjunY/Physics Sim/build/_deps/imgui-subbuild/CMakeFiles/b013429a33087d59b63d8b3f0324bea6/imgui-populate-install.rule"
+		},
+		{
+			"file" : "C:/Users/28WonjunY/Physics Sim/build/_deps/imgui-subbuild/CMakeFiles/b013429a33087d59b63d8b3f0324bea6/imgui-populate-mkdir.rule"
+		},
+		{
+			"file" : "C:/Users/28WonjunY/Physics Sim/build/_deps/imgui-subbuild/CMakeFiles/b013429a33087d59b63d8b3f0324bea6/imgui-populate-patch.rule"
+		},
+		{
+			"file" : "C:/Users/28WonjunY/Physics Sim/build/_deps/imgui-subbuild/CMakeFiles/b013429a33087d59b63d8b3f0324bea6/imgui-populate-test.rule"
+		},
+		{
+			"file" : "C:/Users/28WonjunY/Physics Sim/build/_deps/imgui-subbuild/CMakeFiles/b013429a33087d59b63d8b3f0324bea6/imgui-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"imgui-populate"
+		],
+		"name" : "imgui-populate"
+	}
+}

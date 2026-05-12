@@ -52,13 +52,13 @@ endif()
 
 execute_process(
   COMMAND "C:/Users/28WonjunY/Git/cmd/git.exe"
-          checkout "5.0" --
+          checkout "master" --
   WORKING_DIRECTORY "C:/Users/28WonjunY/Physics Sim/build/_deps/raylib-src"
   RESULT_VARIABLE error_code
   ${maybe_show_command}
 )
 if(error_code)
-  message(FATAL_ERROR "Failed to checkout tag: '5.0'")
+  message(FATAL_ERROR "Failed to checkout tag: 'master'")
 endif()
 
 set(init_submodules TRUE)

@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="18.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\28WonjunY\Physics Sim\build\_deps\imgui-subbuild\CMakeFiles\dbe9f5902c90bfa94b2d42d1ba31bfa0\generate.stamp.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{1DA3173B-3EBF-3E20-9B73-9D5FB8F2C5FC}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
