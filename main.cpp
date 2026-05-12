@@ -257,7 +257,7 @@ int main()
         ImGui::End();
 
         // --- Panel 2: Educational Info (Bottom Left) ---
-        ImGui::SetNextWindowPos(ImVec2(10, 200), ImGuiCond_FirstUseEver);
+        ImGui::SetNextWindowPos(ImVec2(10, 100), ImGuiCond_FirstUseEver);
         ImGui::Begin("Spacetime & Relativity");
         ImGui::TextWrapped("According to General Relativity, gravity is not a force, but a curvature of spacetime caused by mass and energy.");
         ImGui::Spacing();
