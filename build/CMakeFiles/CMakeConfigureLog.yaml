@@ -1485,4 +1485,21 @@ events:
         - "C:\\Program Files\\CMake\\bin"
         - "C:\\Program Files\\Microsoft SQL Server\\170\\Tools\\Binn\\"
         - "C:\\Program Files\\Microsoft SQL Server\\Client SDK\\ODBC\\170\\Tools\\Binn\\"
-   
+        - "C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance Toolkit\\"
+        - "C:\\Users\\28WonjunY\\AppData\\Local\\Microsoft\\WindowsApps"
+        - "C:\\Users\\28WonjunY\\AppData\\Local\\GitHubDesktop\\bin"
+        - "C:\\Users\\28WonjunY\\AppData\\Local\\Programs\\Microsoft VS Code\\bin"
+        - "C:\\Users\\28WonjunY\\AppData\\Roaming\\npm"
+        - "C:\\Users\\28WonjunY\\AppData\\Local\\Python\\bin"
+        - "C:\\Users\\28WonjunY\\.dotnet\\tools"
+        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\CMake\\bin"
+        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\Common7\\IDE\\CommonExtensions\\Microsoft\\CMake\\Ninja"
+        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\Common7\\IDE\\VC\\Linux\\bin\\ConnectionManagerExe"
+        - "C:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\VC\\vcpkg"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/GR_Simulation"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "C:/Program Files"
+        - "C:/Program Files (x86)"
+        - "C:/Program Files/CMake"
+        - "C:/Program Files (x86)/GR_Simulation"
+...
