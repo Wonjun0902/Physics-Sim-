@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/Users/28WonjunY/Physics Sim/build/_deps/raylib-subbuild/CMakeFiles/raylib-populate"
+		},
+		{
+			"file" : "C:/Users/28WonjunY/Physics Sim/build/_deps/raylib-subbuild/CMakeFiles/6445eade8a9d89bb94a7cec899de434e/raylib-populate.rule"
+		},
+		{
+			"file" : "C:/Users/28WonjunY/Physics Sim/build/_deps/raylib-subbuild/CMakeFiles/5bfab011404ed28ea7d4de22e9df57bb/raylib-populate-complete.rule"
+		},
+		{
+			"file" : "C:/Users/28WonjunY/Physics Sim/build/_deps/raylib-subbuild/CMakeFiles/88ef85200e3a8c1ed5b108399a5fbfd3/raylib-populate-build.rule"
+		},
+		{
+			"file" : "C:/Users/28WonjunY/Physics Sim/build/_deps/raylib-subbuild/CMakeFiles/88ef85200e3a8c1ed5b108399a5fbfd3/raylib-populate-configure.rule"
+		},
+		{
+			"file" : "C:/Users/28WonjunY/Physics Sim/build/_deps/raylib-subbuild/CMakeFiles/88ef85200e3a8c1ed5b108399a5fbfd3/raylib-populate-download.rule"
+		},
+		{
+			"file" : "C:/Users/28WonjunY/Physics Sim/build/_deps/raylib-subbuild/CMakeFiles/88ef85200e3a8c1ed5b108399a5fbfd3/raylib-populate-install.rule"
+		},
+		{
+			"file" : "C:/Users/28WonjunY/Physics Sim/build/_deps/raylib-subbuild/CMakeFiles/88ef85200e3a8c1ed5b108399a5fbfd3/raylib-populate-mkdir.rule"
+		},
+		{
+			"file" : "C:/Users/28WonjunY/Physics Sim/build/_deps/raylib-subbuild/CMakeFiles/88ef85200e3a8c1ed5b108399a5fbfd3/raylib-populate-patch.rule"
+		},
+		{
+			"file" : "C:/Users/28WonjunY/Physics Sim/build/_deps/raylib-subbuild/CMakeFiles/88ef85200e3a8c1ed5b108399a5fbfd3/raylib-populate-test.rule"
+		},
+		{
+			"file" : "C:/Users/28WonjunY/Physics Sim/build/_deps/raylib-subbuild/CMakeFiles/88ef85200e3a8c1ed5b108399a5fbfd3/raylib-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"raylib-populate"
+		],
+		"name" : "raylib-populate"
+	}
+}
