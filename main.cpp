@@ -171,6 +171,8 @@ int main()
 
     // Initialize the ImGui binding for Raylib
     rlImGuiSetup(true);
+    // Scale up all ImGui UI elements and text by 50%
+    ImGui::GetIO().FontGlobalScale = 2.0f;
 
     // 3D Camera Setup
     Camera3D camera = {0};
@@ -259,7 +261,7 @@ int main()
         // --- Panel 2: Educational Info (Bottom Left) ---
         ImGui::SetNextWindowPos(ImVec2(10, 200), ImGuiCond_FirstUseEver);
         // This forces the window to be 420 pixels wide and 250 pixels tall maximum.
-        ImGui::SetNextWindowSize(ImVec2(420, 250), ImGuiCond_FirstUseEver);
+        ImGui::SetNextWindowSize(ImVec2(600, 400), ImGuiCond_Always);
         ImGui::Begin("Spacetime & Relativity");
         ImGui::TextWrapped("According to General Relativity, gravity is not a force, but a curvature of spacetime caused by mass and energy.");
         ImGui::Spacing();
