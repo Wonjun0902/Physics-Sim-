@@ -26,7 +26,8 @@ struct SimulationParams
 // --- RK4 Integrator ---
 class GRPhysicsEngine
 {
-    public : static Vector3 ComputeAcceleration(const Vector3 &pos, const Vector3 &vel, const SimulationParams &params)
+public:
+    static Vector3 ComputeAcceleration(const Vector3 &pos, const Vector3 &vel, const SimulationParams &params)
     {
         float r2 = Vector3LengthSqr(pos);
         float r = sqrtf(r2);
@@ -186,7 +187,8 @@ int main()
         // UI Overlay
         rlImGuiBegin();
 
-        // Control Panel
+        // Position at Top Left
+        ImGui::SetNextWindowPos(ImVec2(10, 10), ImGuiCond_FirstUseEver);
         ImGui::Begin("Simulation Controls");
         ImGui::SliderFloat("Primary Mass (M)", &params.primaryMass, 100.0f, 5000.0f);
         ImGui::SliderFloat("Grid Warp Depth", &params.warpDepth, 10.0f, 150.0f);
@@ -200,7 +202,8 @@ int main()
         }
         ImGui::End();
 
-        // Educational Panel
+        // Position at Bottom Left
+        ImGui::SetNextWindowPos(ImVec2(10, 200), ImGuiCond_FirstUseEver);
         ImGui::Begin("Spacetime & Relativity");
         ImGui::TextWrapped("According to General Relativity, gravity is not a force, but a curvature of spacetime caused by mass and energy.");
         ImGui::Spacing();
@@ -210,7 +213,8 @@ int main()
         ImGui::TextWrapped("The red sphere's path (geodesic) is calculated using a 4th-order Runge-Kutta integrator applying the Schwarzschild metric's effective potential.");
         ImGui::End();
 
-        // Interactive Quiz Panel
+        // Position at Top Right
+        ImGui::SetNextWindowPos(ImVec2(screenWidth - 350, 10), ImGuiCond_FirstUseEver);
         ImGui::Begin("Relativity Quiz");
         ImGui::Text("1. What parameter determines the radius of the event horizon?");
         ImGui::RadioButton("Schwarzschild Radius", &q1_ans, 0);

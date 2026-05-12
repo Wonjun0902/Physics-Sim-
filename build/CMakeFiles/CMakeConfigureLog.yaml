@@ -105,7 +105,7 @@ events:
       The output was:
       0
       MSBuild version 18.6.3+84d3e95b4 for .NET Framework
-      Build started 5/12/2026 11:04:31 AM.
+      Build started 5/12/2026 1:23:51 PM.
       
       Project "C:\\Users\\28WonjunY\\Physics Sim\\build\\CMakeFiles\\4.3.2\\CompilerIdCXX\\CompilerIdCXX.vcxproj" on node 1 (default targets).
       PrepareForBuild:
@@ -134,7 +134,7 @@ events:
           0 Warning(s)
           0 Error(s)
       
-      Time Elapsed 00:00:02.31
+      Time Elapsed 00:00:01.34
       
       
       Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "CompilerIdCXX.exe"
@@ -1041,8 +1041,8 @@ events:
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "C:/Users/28WonjunY/Physics Sim/build/CMakeFiles/CMakeScratch/TryCompile-6q785g"
-      binary: "C:/Users/28WonjunY/Physics Sim/build/CMakeFiles/CMakeScratch/TryCompile-6q785g"
+      source: "C:/Users/28WonjunY/Physics Sim/build/CMakeFiles/CMakeScratch/TryCompile-1uyetc"
+      binary: "C:/Users/28WonjunY/Physics Sim/build/CMakeFiles/CMakeScratch/TryCompile-1uyetc"
     cmakeVariables:
       CMAKE_CXX_FLAGS: "/DWIN32 /D_WINDOWS /W3 /GR /EHsc"
       CMAKE_CXX_FLAGS_DEBUG: "/MDd /Zi /Ob0 /Od /RTC1"
@@ -1053,39 +1053,39 @@ events:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/28WonjunY/Physics Sim/build/CMakeFiles/CMakeScratch/TryCompile-6q785g'
+        Change Dir: 'C:/Users/28WonjunY/Physics Sim/build/CMakeFiles/CMakeScratch/TryCompile-1uyetc'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/18/Insiders/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_7c810.vcxproj /p:Configuration=Debug /p:Platform=win32 /p:VisualStudioVersion=18.0 /v:n
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/18/Insiders/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_33640.vcxproj /p:Configuration=Debug /p:Platform=win32 /p:VisualStudioVersion=18.0 /v:n
         MSBuild version 18.6.3+84d3e95b4 for .NET Framework
-        Build started 5/12/2026 11:04:35 AM.
+        Build started 5/12/2026 1:23:54 PM.
         
-        Project "C:\\Users\\28WonjunY\\Physics Sim\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6q785g\\cmTC_7c810.vcxproj" on node 1 (default targets).
+        Project "C:\\Users\\28WonjunY\\Physics Sim\\build\\CMakeFiles\\CMakeScratch\\TryCompile-1uyetc\\cmTC_33640.vcxproj" on node 1 (default targets).
         PrepareForBuild:
           Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
-          Creating directory "C:\\Users\\28WonjunY\\Physics Sim\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6q785g\\Debug\\".
-          Creating directory "cmTC_7c810.dir\\Debug\\cmTC_7c810.tlog\\".
+          Creating directory "C:\\Users\\28WonjunY\\Physics Sim\\build\\CMakeFiles\\CMakeScratch\\TryCompile-1uyetc\\Debug\\".
+          Creating directory "cmTC_33640.dir\\Debug\\cmTC_33640.tlog\\".
         InitializeBuildStatus:
-          Creating "cmTC_7c810.dir\\Debug\\cmTC_7c810.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
-          Touching "cmTC_7c810.dir\\Debug\\cmTC_7c810.tlog\\unsuccessfulbuild".
+          Creating "cmTC_33640.dir\\Debug\\cmTC_33640.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_33640.dir\\Debug\\cmTC_33640.tlog\\unsuccessfulbuild".
         ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\VC\\Tools\\MSVC\\14.51.36231\\bin\\HostX86\\x86\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GR /Fo"cmTC_7c810.dir\\Debug\\\\" /Fd"cmTC_7c810.dir\\Debug\\vc145.pdb" /external:W3 /TP /analyze- /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.3\\Modules\\CMakeCXXCompilerABI.cpp"
+          C:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\VC\\Tools\\MSVC\\14.51.36231\\bin\\HostX86\\x86\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GR /Fo"cmTC_33640.dir\\Debug\\\\" /Fd"cmTC_33640.dir\\Debug\\vc145.pdb" /external:W3 /TP /analyze- /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.3\\Modules\\CMakeCXXCompilerABI.cpp"
           Microsoft (R) C/C++ Optimizing Compiler Version 19.51.36241 for x86
           Copyright (C) Microsoft Corporation.  All rights reserved.
-          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GR /Fo"cmTC_7c810.dir\\Debug\\\\" /Fd"cmTC_7c810.dir\\Debug\\vc145.pdb" /external:W3 /TP /analyze- /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.3\\Modules\\CMakeCXXCompilerABI.cpp"
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /EHsc /RTC1 /MDd /GR /Fo"cmTC_33640.dir\\Debug\\\\" /Fd"cmTC_33640.dir\\Debug\\vc145.pdb" /external:W3 /TP /analyze- /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.3\\Modules\\CMakeCXXCompilerABI.cpp"
           CMakeCXXCompilerABI.cpp
         Link:
-          C:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\VC\\Tools\\MSVC\\14.51.36231\\bin\\HostX86\\x86\\link.exe /OUT:"C:\\Users\\28WonjunY\\Physics Sim\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6q785g\\Debug\\cmTC_7c810.exe" /INCREMENTAL /ILK:"cmTC_7c810.dir\\Debug\\cmTC_7c810.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/28WonjunY/Physics Sim/build/CMakeFiles/CMakeScratch/TryCompile-6q785g/Debug/cmTC_7c810.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/28WonjunY/Physics Sim/build/CMakeFiles/CMakeScratch/TryCompile-6q785g/Debug/cmTC_7c810.lib" /MACHINE:X86  /machine:X86 cmTC_7c810.dir\\Debug\\CMakeCXXCompilerABI.obj
-          cmTC_7c810.vcxproj -> C:\\Users\\28WonjunY\\Physics Sim\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6q785g\\Debug\\cmTC_7c810.exe
+          C:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\VC\\Tools\\MSVC\\14.51.36231\\bin\\HostX86\\x86\\link.exe /OUT:"C:\\Users\\28WonjunY\\Physics Sim\\build\\CMakeFiles\\CMakeScratch\\TryCompile-1uyetc\\Debug\\cmTC_33640.exe" /INCREMENTAL /ILK:"cmTC_33640.dir\\Debug\\cmTC_33640.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/28WonjunY/Physics Sim/build/CMakeFiles/CMakeScratch/TryCompile-1uyetc/Debug/cmTC_33640.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/28WonjunY/Physics Sim/build/CMakeFiles/CMakeScratch/TryCompile-1uyetc/Debug/cmTC_33640.lib" /MACHINE:X86  /machine:X86 cmTC_33640.dir\\Debug\\CMakeCXXCompilerABI.obj
+          cmTC_33640.vcxproj -> C:\\Users\\28WonjunY\\Physics Sim\\build\\CMakeFiles\\CMakeScratch\\TryCompile-1uyetc\\Debug\\cmTC_33640.exe
         FinalizeBuildStatus:
-          Deleting file "cmTC_7c810.dir\\Debug\\cmTC_7c810.tlog\\unsuccessfulbuild".
-          Touching "cmTC_7c810.dir\\Debug\\cmTC_7c810.tlog\\cmTC_7c810.lastbuildstate".
-        Done Building Project "C:\\Users\\28WonjunY\\Physics Sim\\build\\CMakeFiles\\CMakeScratch\\TryCompile-6q785g\\cmTC_7c810.vcxproj" (default targets).
+          Deleting file "cmTC_33640.dir\\Debug\\cmTC_33640.tlog\\unsuccessfulbuild".
+          Touching "cmTC_33640.dir\\Debug\\cmTC_33640.tlog\\cmTC_33640.lastbuildstate".
+        Done Building Project "C:\\Users\\28WonjunY\\Physics Sim\\build\\CMakeFiles\\CMakeScratch\\TryCompile-1uyetc\\cmTC_33640.vcxproj" (default targets).
         
         Build succeeded.
             0 Warning(s)
             0 Error(s)
         
-        Time Elapsed 00:00:01.52
+        Time Elapsed 00:00:01.23
         
       exitCode: 0
   -
@@ -1502,10 +1502,6 @@ events:
         - "C:/Program Files (x86)"
         - "C:/Program Files/CMake"
         - "C:/Program Files (x86)/GR_Simulation"
-...
-
----
-events:
   -
     kind: "find-v1"
     backtrace:
@@ -1609,7 +1605,7 @@ events:
       The output was:
       0
       MSBuild version 18.6.3+84d3e95b4 for .NET Framework
-      Build started 5/12/2026 11:15:03 AM.
+      Build started 5/12/2026 1:24:04 PM.
       
       Project "C:\\Users\\28WonjunY\\Physics Sim\\build\\CMakeFiles\\4.3.2\\CompilerIdC\\CompilerIdC.vcxproj" on node 1 (default targets).
       PrepareForBuild:
@@ -1638,7 +1634,7 @@ events:
           0 Warning(s)
           0 Error(s)
       
-      Time Elapsed 00:00:01.19
+      Time Elapsed 00:00:01.44
       
       
       Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "CompilerIdC.exe"
@@ -1957,8 +1953,8 @@ events:
     checks:
       - "Detecting C compiler ABI info"
     directories:
-      source: "C:/Users/28WonjunY/Physics Sim/build/CMakeFiles/CMakeScratch/TryCompile-h9urse"
-      binary: "C:/Users/28WonjunY/Physics Sim/build/CMakeFiles/CMakeScratch/TryCompile-h9urse"
+      source: "C:/Users/28WonjunY/Physics Sim/build/CMakeFiles/CMakeScratch/TryCompile-htiac4"
+      binary: "C:/Users/28WonjunY/Physics Sim/build/CMakeFiles/CMakeScratch/TryCompile-htiac4"
     cmakeVariables:
       CMAKE_CXX_STDLIB_MODULES_JSON: ""
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
@@ -1968,39 +1964,39 @@ events:
       variable: "CMAKE_C_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/28WonjunY/Physics Sim/build/CMakeFiles/CMakeScratch/TryCompile-h9urse'
+        Change Dir: 'C:/Users/28WonjunY/Physics Sim/build/CMakeFiles/CMakeScratch/TryCompile-htiac4'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/18/Insiders/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_d1115.vcxproj /p:Configuration=Debug /p:Platform=win32 /p:VisualStudioVersion=18.0 /v:n
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/18/Insiders/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_d67fc.vcxproj /p:Configuration=Debug /p:Platform=win32 /p:VisualStudioVersion=18.0 /v:n
         MSBuild version 18.6.3+84d3e95b4 for .NET Framework
-        Build started 5/12/2026 11:15:05 AM.
+        Build started 5/12/2026 1:24:06 PM.
         
-        Project "C:\\Users\\28WonjunY\\Physics Sim\\build\\CMakeFiles\\CMakeScratch\\TryCompile-h9urse\\cmTC_d1115.vcxproj" on node 1 (default targets).
+        Project "C:\\Users\\28WonjunY\\Physics Sim\\build\\CMakeFiles\\CMakeScratch\\TryCompile-htiac4\\cmTC_d67fc.vcxproj" on node 1 (default targets).
         PrepareForBuild:
           Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
-          Creating directory "C:\\Users\\28WonjunY\\Physics Sim\\build\\CMakeFiles\\CMakeScratch\\TryCompile-h9urse\\Debug\\".
-          Creating directory "cmTC_d1115.dir\\Debug\\cmTC_d1115.tlog\\".
+          Creating directory "C:\\Users\\28WonjunY\\Physics Sim\\build\\CMakeFiles\\CMakeScratch\\TryCompile-htiac4\\Debug\\".
+          Creating directory "cmTC_d67fc.dir\\Debug\\cmTC_d67fc.tlog\\".
         InitializeBuildStatus:
-          Creating "cmTC_d1115.dir\\Debug\\cmTC_d1115.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
-          Touching "cmTC_d1115.dir\\Debug\\cmTC_d1115.tlog\\unsuccessfulbuild".
+          Creating "cmTC_d67fc.dir\\Debug\\cmTC_d67fc.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_d67fc.dir\\Debug\\cmTC_d67fc.tlog\\unsuccessfulbuild".
         ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\VC\\Tools\\MSVC\\14.51.36231\\bin\\HostX86\\x86\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_d1115.dir\\Debug\\\\" /Fd"cmTC_d1115.dir\\Debug\\vc145.pdb" /external:W3 /TC /analyze- /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.3\\Modules\\CMakeCCompilerABI.c"
+          C:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\VC\\Tools\\MSVC\\14.51.36231\\bin\\HostX86\\x86\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_d67fc.dir\\Debug\\\\" /Fd"cmTC_d67fc.dir\\Debug\\vc145.pdb" /external:W3 /TC /analyze- /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.3\\Modules\\CMakeCCompilerABI.c"
           Microsoft (R) C/C++ Optimizing Compiler Version 19.51.36241 for x86
           Copyright (C) Microsoft Corporation.  All rights reserved.
-          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_d1115.dir\\Debug\\\\" /Fd"cmTC_d1115.dir\\Debug\\vc145.pdb" /external:W3 /TC /analyze- /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.3\\Modules\\CMakeCCompilerABI.c"
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_d67fc.dir\\Debug\\\\" /Fd"cmTC_d67fc.dir\\Debug\\vc145.pdb" /external:W3 /TC /analyze- /errorReport:queue "C:\\Program Files\\CMake\\share\\cmake-4.3\\Modules\\CMakeCCompilerABI.c"
           CMakeCCompilerABI.c
         Link:
-          C:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\VC\\Tools\\MSVC\\14.51.36231\\bin\\HostX86\\x86\\link.exe /OUT:"C:\\Users\\28WonjunY\\Physics Sim\\build\\CMakeFiles\\CMakeScratch\\TryCompile-h9urse\\Debug\\cmTC_d1115.exe" /INCREMENTAL /ILK:"cmTC_d1115.dir\\Debug\\cmTC_d1115.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/28WonjunY/Physics Sim/build/CMakeFiles/CMakeScratch/TryCompile-h9urse/Debug/cmTC_d1115.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/28WonjunY/Physics Sim/build/CMakeFiles/CMakeScratch/TryCompile-h9urse/Debug/cmTC_d1115.lib" /MACHINE:X86  /machine:X86 cmTC_d1115.dir\\Debug\\CMakeCCompilerABI.obj
-          cmTC_d1115.vcxproj -> C:\\Users\\28WonjunY\\Physics Sim\\build\\CMakeFiles\\CMakeScratch\\TryCompile-h9urse\\Debug\\cmTC_d1115.exe
+          C:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\VC\\Tools\\MSVC\\14.51.36231\\bin\\HostX86\\x86\\link.exe /OUT:"C:\\Users\\28WonjunY\\Physics Sim\\build\\CMakeFiles\\CMakeScratch\\TryCompile-htiac4\\Debug\\cmTC_d67fc.exe" /INCREMENTAL /ILK:"cmTC_d67fc.dir\\Debug\\cmTC_d67fc.ilk" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/28WonjunY/Physics Sim/build/CMakeFiles/CMakeScratch/TryCompile-htiac4/Debug/cmTC_d67fc.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/28WonjunY/Physics Sim/build/CMakeFiles/CMakeScratch/TryCompile-htiac4/Debug/cmTC_d67fc.lib" /MACHINE:X86  /machine:X86 cmTC_d67fc.dir\\Debug\\CMakeCCompilerABI.obj
+          cmTC_d67fc.vcxproj -> C:\\Users\\28WonjunY\\Physics Sim\\build\\CMakeFiles\\CMakeScratch\\TryCompile-htiac4\\Debug\\cmTC_d67fc.exe
         FinalizeBuildStatus:
-          Deleting file "cmTC_d1115.dir\\Debug\\cmTC_d1115.tlog\\unsuccessfulbuild".
-          Touching "cmTC_d1115.dir\\Debug\\cmTC_d1115.tlog\\cmTC_d1115.lastbuildstate".
-        Done Building Project "C:\\Users\\28WonjunY\\Physics Sim\\build\\CMakeFiles\\CMakeScratch\\TryCompile-h9urse\\cmTC_d1115.vcxproj" (default targets).
+          Deleting file "cmTC_d67fc.dir\\Debug\\cmTC_d67fc.tlog\\unsuccessfulbuild".
+          Touching "cmTC_d67fc.dir\\Debug\\cmTC_d67fc.tlog\\cmTC_d67fc.lastbuildstate".
+        Done Building Project "C:\\Users\\28WonjunY\\Physics Sim\\build\\CMakeFiles\\CMakeScratch\\TryCompile-htiac4\\cmTC_d67fc.vcxproj" (default targets).
         
         Build succeeded.
             0 Warning(s)
             0 Error(s)
         
-        Time Elapsed 00:00:01.10
+        Time Elapsed 00:00:01.22
         
       exitCode: 0
   -
@@ -2043,8 +2039,8 @@ events:
     checks:
       - "Performing Test COMPILER_HAS_THOSE_TOGGLES"
     directories:
-      source: "C:/Users/28WonjunY/Physics Sim/build/CMakeFiles/CMakeScratch/TryCompile-ity1fl"
-      binary: "C:/Users/28WonjunY/Physics Sim/build/CMakeFiles/CMakeScratch/TryCompile-ity1fl"
+      source: "C:/Users/28WonjunY/Physics Sim/build/CMakeFiles/CMakeScratch/TryCompile-zt0qx2"
+      binary: "C:/Users/28WonjunY/Physics Sim/build/CMakeFiles/CMakeScratch/TryCompile-zt0qx2"
     cmakeVariables:
       CMAKE_CXX_STDLIB_MODULES_JSON: ""
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
@@ -2055,38 +2051,38 @@ events:
       variable: "COMPILER_HAS_THOSE_TOGGLES"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/28WonjunY/Physics Sim/build/CMakeFiles/CMakeScratch/TryCompile-ity1fl'
+        Change Dir: 'C:/Users/28WonjunY/Physics Sim/build/CMakeFiles/CMakeScratch/TryCompile-zt0qx2'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/18/Insiders/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_fc7a1.vcxproj /p:Configuration=Debug /p:Platform=win32 /p:VisualStudioVersion=18.0 /v:n
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/18/Insiders/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_cb428.vcxproj /p:Configuration=Debug /p:Platform=win32 /p:VisualStudioVersion=18.0 /v:n
         MSBuild version 18.6.3+84d3e95b4 for .NET Framework
-        Build started 5/12/2026 11:15:07 AM.
+        Build started 5/12/2026 1:24:09 PM.
         
-        Project "C:\\Users\\28WonjunY\\Physics Sim\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ity1fl\\cmTC_fc7a1.vcxproj" on node 1 (default targets).
+        Project "C:\\Users\\28WonjunY\\Physics Sim\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zt0qx2\\cmTC_cb428.vcxproj" on node 1 (default targets).
         PrepareForBuild:
           Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
-          Creating directory "C:\\Users\\28WonjunY\\Physics Sim\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ity1fl\\Debug\\".
-          Creating directory "cmTC_fc7a1.dir\\Debug\\cmTC_fc7a1.tlog\\".
+          Creating directory "C:\\Users\\28WonjunY\\Physics Sim\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zt0qx2\\Debug\\".
+          Creating directory "cmTC_cb428.dir\\Debug\\cmTC_cb428.tlog\\".
         InitializeBuildStatus:
-          Creating "cmTC_fc7a1.dir\\Debug\\cmTC_fc7a1.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
-          Touching "cmTC_fc7a1.dir\\Debug\\cmTC_fc7a1.tlog\\unsuccessfulbuild".
+          Creating "cmTC_cb428.dir\\Debug\\cmTC_cb428.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_cb428.dir\\Debug\\cmTC_cb428.tlog\\unsuccessfulbuild".
         ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\VC\\Tools\\MSVC\\14.51.36231\\bin\\HostX86\\x86\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D COMPILER_HAS_THOSE_TOGGLES /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_fc7a1.dir\\Debug\\\\" /Fd"cmTC_fc7a1.dir\\Debug\\vc145.pdb" /external:W3 /TC /analyze- /errorReport:queue  -Werror=pointer-arith "C:\\Users\\28WonjunY\\Physics Sim\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ity1fl\\src.c"
+          C:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\VC\\Tools\\MSVC\\14.51.36231\\bin\\HostX86\\x86\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D COMPILER_HAS_THOSE_TOGGLES /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_cb428.dir\\Debug\\\\" /Fd"cmTC_cb428.dir\\Debug\\vc145.pdb" /external:W3 /TC /analyze- /errorReport:queue  -Werror=pointer-arith "C:\\Users\\28WonjunY\\Physics Sim\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zt0qx2\\src.c"
           Microsoft (R) C/C++ Optimizing Compiler Version 19.51.36241 for x86
           Copyright (C) Microsoft Corporation.  All rights reserved.
-          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D COMPILER_HAS_THOSE_TOGGLES /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_fc7a1.dir\\Debug\\\\" /Fd"cmTC_fc7a1.dir\\Debug\\vc145.pdb" /external:W3 /TC /analyze- /errorReport:queue  -Werror=pointer-arith "C:\\Users\\28WonjunY\\Physics Sim\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ity1fl\\src.c"
-        cl : command line  error D8021: invalid numeric argument '/Werror=pointer-arith' [C:\\Users\\28WonjunY\\Physics Sim\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ity1fl\\cmTC_fc7a1.vcxproj]
-        Done Building Project "C:\\Users\\28WonjunY\\Physics Sim\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ity1fl\\cmTC_fc7a1.vcxproj" (default targets) -- FAILED.
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D COMPILER_HAS_THOSE_TOGGLES /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_cb428.dir\\Debug\\\\" /Fd"cmTC_cb428.dir\\Debug\\vc145.pdb" /external:W3 /TC /analyze- /errorReport:queue  -Werror=pointer-arith "C:\\Users\\28WonjunY\\Physics Sim\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zt0qx2\\src.c"
+        cl : command line  error D8021: invalid numeric argument '/Werror=pointer-arith' [C:\\Users\\28WonjunY\\Physics Sim\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zt0qx2\\cmTC_cb428.vcxproj]
+        Done Building Project "C:\\Users\\28WonjunY\\Physics Sim\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zt0qx2\\cmTC_cb428.vcxproj" (default targets) -- FAILED.
         
         Build FAILED.
         
-        "C:\\Users\\28WonjunY\\Physics Sim\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ity1fl\\cmTC_fc7a1.vcxproj" (default target) (1) ->
+        "C:\\Users\\28WonjunY\\Physics Sim\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zt0qx2\\cmTC_cb428.vcxproj" (default target) (1) ->
         (ClCompile target) -> 
-          cl : command line  error D8021: invalid numeric argument '/Werror=pointer-arith' [C:\\Users\\28WonjunY\\Physics Sim\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ity1fl\\cmTC_fc7a1.vcxproj]
+          cl : command line  error D8021: invalid numeric argument '/Werror=pointer-arith' [C:\\Users\\28WonjunY\\Physics Sim\\build\\CMakeFiles\\CMakeScratch\\TryCompile-zt0qx2\\cmTC_cb428.vcxproj]
         
             0 Warning(s)
             1 Error(s)
         
-        Time Elapsed 00:00:00.45
+        Time Elapsed 00:00:00.59
         
       exitCode: 1
   -
@@ -2100,8 +2096,8 @@ events:
     checks:
       - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
     directories:
-      source: "C:/Users/28WonjunY/Physics Sim/build/CMakeFiles/CMakeScratch/TryCompile-3wqmd0"
-      binary: "C:/Users/28WonjunY/Physics Sim/build/CMakeFiles/CMakeScratch/TryCompile-3wqmd0"
+      source: "C:/Users/28WonjunY/Physics Sim/build/CMakeFiles/CMakeScratch/TryCompile-edisq7"
+      binary: "C:/Users/28WonjunY/Physics Sim/build/CMakeFiles/CMakeScratch/TryCompile-edisq7"
     cmakeVariables:
       CMAKE_CXX_STDLIB_MODULES_JSON: ""
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
@@ -2112,39 +2108,39 @@ events:
       variable: "CMAKE_HAVE_LIBC_PTHREAD"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/28WonjunY/Physics Sim/build/CMakeFiles/CMakeScratch/TryCompile-3wqmd0'
+        Change Dir: 'C:/Users/28WonjunY/Physics Sim/build/CMakeFiles/CMakeScratch/TryCompile-edisq7'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/18/Insiders/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_fc86d.vcxproj /p:Configuration=Debug /p:Platform=win32 /p:VisualStudioVersion=18.0 /v:n
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/18/Insiders/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_ee820.vcxproj /p:Configuration=Debug /p:Platform=win32 /p:VisualStudioVersion=18.0 /v:n
         MSBuild version 18.6.3+84d3e95b4 for .NET Framework
-        Build started 5/12/2026 11:15:08 AM.
+        Build started 5/12/2026 1:24:10 PM.
         
-        Project "C:\\Users\\28WonjunY\\Physics Sim\\build\\CMakeFiles\\CMakeScratch\\TryCompile-3wqmd0\\cmTC_fc86d.vcxproj" on node 1 (default targets).
+        Project "C:\\Users\\28WonjunY\\Physics Sim\\build\\CMakeFiles\\CMakeScratch\\TryCompile-edisq7\\cmTC_ee820.vcxproj" on node 1 (default targets).
         PrepareForBuild:
           Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
-          Creating directory "C:\\Users\\28WonjunY\\Physics Sim\\build\\CMakeFiles\\CMakeScratch\\TryCompile-3wqmd0\\Debug\\".
-          Creating directory "cmTC_fc86d.dir\\Debug\\cmTC_fc86d.tlog\\".
+          Creating directory "C:\\Users\\28WonjunY\\Physics Sim\\build\\CMakeFiles\\CMakeScratch\\TryCompile-edisq7\\Debug\\".
+          Creating directory "cmTC_ee820.dir\\Debug\\cmTC_ee820.tlog\\".
         InitializeBuildStatus:
-          Creating "cmTC_fc86d.dir\\Debug\\cmTC_fc86d.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
-          Touching "cmTC_fc86d.dir\\Debug\\cmTC_fc86d.tlog\\unsuccessfulbuild".
+          Creating "cmTC_ee820.dir\\Debug\\cmTC_ee820.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_ee820.dir\\Debug\\cmTC_ee820.tlog\\unsuccessfulbuild".
         ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\VC\\Tools\\MSVC\\14.51.36231\\bin\\HostX86\\x86\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_fc86d.dir\\Debug\\\\" /Fd"cmTC_fc86d.dir\\Debug\\vc145.pdb" /external:W3 /TC /analyze- /errorReport:queue "C:\\Users\\28WonjunY\\Physics Sim\\build\\CMakeFiles\\CMakeScratch\\TryCompile-3wqmd0\\src.c"
+          C:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\VC\\Tools\\MSVC\\14.51.36231\\bin\\HostX86\\x86\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_ee820.dir\\Debug\\\\" /Fd"cmTC_ee820.dir\\Debug\\vc145.pdb" /external:W3 /TC /analyze- /errorReport:queue "C:\\Users\\28WonjunY\\Physics Sim\\build\\CMakeFiles\\CMakeScratch\\TryCompile-edisq7\\src.c"
           Microsoft (R) C/C++ Optimizing Compiler Version 19.51.36241 for x86
           Copyright (C) Microsoft Corporation.  All rights reserved.
-          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_fc86d.dir\\Debug\\\\" /Fd"cmTC_fc86d.dir\\Debug\\vc145.pdb" /external:W3 /TC /analyze- /errorReport:queue "C:\\Users\\28WonjunY\\Physics Sim\\build\\CMakeFiles\\CMakeScratch\\TryCompile-3wqmd0\\src.c"
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D CMAKE_HAVE_LIBC_PTHREAD /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_ee820.dir\\Debug\\\\" /Fd"cmTC_ee820.dir\\Debug\\vc145.pdb" /external:W3 /TC /analyze- /errorReport:queue "C:\\Users\\28WonjunY\\Physics Sim\\build\\CMakeFiles\\CMakeScratch\\TryCompile-edisq7\\src.c"
           src.c
-        C:\\Users\\28WonjunY\\Physics Sim\\build\\CMakeFiles\\CMakeScratch\\TryCompile-3wqmd0\\src.c(1,10): error C1083: Cannot open include file: 'pthread.h': No such file or directory [C:\\Users\\28WonjunY\\Physics Sim\\build\\CMakeFiles\\CMakeScratch\\TryCompile-3wqmd0\\cmTC_fc86d.vcxproj]
-        Done Building Project "C:\\Users\\28WonjunY\\Physics Sim\\build\\CMakeFiles\\CMakeScratch\\TryCompile-3wqmd0\\cmTC_fc86d.vcxproj" (default targets) -- FAILED.
+        C:\\Users\\28WonjunY\\Physics Sim\\build\\CMakeFiles\\CMakeScratch\\TryCompile-edisq7\\src.c(1,10): error C1083: Cannot open include file: 'pthread.h': No such file or directory [C:\\Users\\28WonjunY\\Physics Sim\\build\\CMakeFiles\\CMakeScratch\\TryCompile-edisq7\\cmTC_ee820.vcxproj]
+        Done Building Project "C:\\Users\\28WonjunY\\Physics Sim\\build\\CMakeFiles\\CMakeScratch\\TryCompile-edisq7\\cmTC_ee820.vcxproj" (default targets) -- FAILED.
         
         Build FAILED.
         
-        "C:\\Users\\28WonjunY\\Physics Sim\\build\\CMakeFiles\\CMakeScratch\\TryCompile-3wqmd0\\cmTC_fc86d.vcxproj" (default target) (1) ->
+        "C:\\Users\\28WonjunY\\Physics Sim\\build\\CMakeFiles\\CMakeScratch\\TryCompile-edisq7\\cmTC_ee820.vcxproj" (default target) (1) ->
         (ClCompile target) -> 
-          C:\\Users\\28WonjunY\\Physics Sim\\build\\CMakeFiles\\CMakeScratch\\TryCompile-3wqmd0\\src.c(1,10): error C1083: Cannot open include file: 'pthread.h': No such file or directory [C:\\Users\\28WonjunY\\Physics Sim\\build\\CMakeFiles\\CMakeScratch\\TryCompile-3wqmd0\\cmTC_fc86d.vcxproj]
+          C:\\Users\\28WonjunY\\Physics Sim\\build\\CMakeFiles\\CMakeScratch\\TryCompile-edisq7\\src.c(1,10): error C1083: Cannot open include file: 'pthread.h': No such file or directory [C:\\Users\\28WonjunY\\Physics Sim\\build\\CMakeFiles\\CMakeScratch\\TryCompile-edisq7\\cmTC_ee820.vcxproj]
         
             0 Warning(s)
             1 Error(s)
         
-        Time Elapsed 00:00:00.52
+        Time Elapsed 00:00:00.50
         
       exitCode: 1
   -
@@ -2157,8 +2153,8 @@ events:
     checks:
       - "Looking for pthread_create in pthreads"
     directories:
-      source: "C:/Users/28WonjunY/Physics Sim/build/CMakeFiles/CMakeScratch/TryCompile-qvwuor"
-      binary: "C:/Users/28WonjunY/Physics Sim/build/CMakeFiles/CMakeScratch/TryCompile-qvwuor"
+      source: "C:/Users/28WonjunY/Physics Sim/build/CMakeFiles/CMakeScratch/TryCompile-074nff"
+      binary: "C:/Users/28WonjunY/Physics Sim/build/CMakeFiles/CMakeScratch/TryCompile-074nff"
     cmakeVariables:
       CMAKE_CXX_STDLIB_MODULES_JSON: ""
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
@@ -2169,41 +2165,41 @@ events:
       variable: "CMAKE_HAVE_PTHREADS_CREATE"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/28WonjunY/Physics Sim/build/CMakeFiles/CMakeScratch/TryCompile-qvwuor'
+        Change Dir: 'C:/Users/28WonjunY/Physics Sim/build/CMakeFiles/CMakeScratch/TryCompile-074nff'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/18/Insiders/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_f09fb.vcxproj /p:Configuration=Debug /p:Platform=win32 /p:VisualStudioVersion=18.0 /v:n
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/18/Insiders/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_8fad7.vcxproj /p:Configuration=Debug /p:Platform=win32 /p:VisualStudioVersion=18.0 /v:n
         MSBuild version 18.6.3+84d3e95b4 for .NET Framework
-        Build started 5/12/2026 11:15:09 AM.
+        Build started 5/12/2026 1:24:11 PM.
         
-        Project "C:\\Users\\28WonjunY\\Physics Sim\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qvwuor\\cmTC_f09fb.vcxproj" on node 1 (default targets).
+        Project "C:\\Users\\28WonjunY\\Physics Sim\\build\\CMakeFiles\\CMakeScratch\\TryCompile-074nff\\cmTC_8fad7.vcxproj" on node 1 (default targets).
         PrepareForBuild:
           Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
-          Creating directory "C:\\Users\\28WonjunY\\Physics Sim\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qvwuor\\Debug\\".
-          Creating directory "cmTC_f09fb.dir\\Debug\\cmTC_f09fb.tlog\\".
+          Creating directory "C:\\Users\\28WonjunY\\Physics Sim\\build\\CMakeFiles\\CMakeScratch\\TryCompile-074nff\\Debug\\".
+          Creating directory "cmTC_8fad7.dir\\Debug\\cmTC_8fad7.tlog\\".
         InitializeBuildStatus:
-          Creating "cmTC_f09fb.dir\\Debug\\cmTC_f09fb.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
-          Touching "cmTC_f09fb.dir\\Debug\\cmTC_f09fb.tlog\\unsuccessfulbuild".
+          Creating "cmTC_8fad7.dir\\Debug\\cmTC_8fad7.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_8fad7.dir\\Debug\\cmTC_8fad7.tlog\\unsuccessfulbuild".
         ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\VC\\Tools\\MSVC\\14.51.36231\\bin\\HostX86\\x86\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_f09fb.dir\\Debug\\\\" /Fd"cmTC_f09fb.dir\\Debug\\vc145.pdb" /external:W3 /TC /analyze- /errorReport:queue "C:\\Users\\28WonjunY\\Physics Sim\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qvwuor\\CheckFunctionExists.c"
+          C:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\VC\\Tools\\MSVC\\14.51.36231\\bin\\HostX86\\x86\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_8fad7.dir\\Debug\\\\" /Fd"cmTC_8fad7.dir\\Debug\\vc145.pdb" /external:W3 /TC /analyze- /errorReport:queue "C:\\Users\\28WonjunY\\Physics Sim\\build\\CMakeFiles\\CMakeScratch\\TryCompile-074nff\\CheckFunctionExists.c"
           Microsoft (R) C/C++ Optimizing Compiler Version 19.51.36241 for x86
           Copyright (C) Microsoft Corporation.  All rights reserved.
-          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_f09fb.dir\\Debug\\\\" /Fd"cmTC_f09fb.dir\\Debug\\vc145.pdb" /external:W3 /TC /analyze- /errorReport:queue "C:\\Users\\28WonjunY\\Physics Sim\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qvwuor\\CheckFunctionExists.c"
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_8fad7.dir\\Debug\\\\" /Fd"cmTC_8fad7.dir\\Debug\\vc145.pdb" /external:W3 /TC /analyze- /errorReport:queue "C:\\Users\\28WonjunY\\Physics Sim\\build\\CMakeFiles\\CMakeScratch\\TryCompile-074nff\\CheckFunctionExists.c"
           CheckFunctionExists.c
         Link:
-          C:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\VC\\Tools\\MSVC\\14.51.36231\\bin\\HostX86\\x86\\link.exe /OUT:"C:\\Users\\28WonjunY\\Physics Sim\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qvwuor\\Debug\\cmTC_f09fb.exe" /INCREMENTAL /ILK:"cmTC_f09fb.dir\\Debug\\cmTC_f09fb.ilk" /NOLOGO pthreads.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/28WonjunY/Physics Sim/build/CMakeFiles/CMakeScratch/TryCompile-qvwuor/Debug/cmTC_f09fb.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/28WonjunY/Physics Sim/build/CMakeFiles/CMakeScratch/TryCompile-qvwuor/Debug/cmTC_f09fb.lib" /MACHINE:X86  /machine:X86 cmTC_f09fb.dir\\Debug\\CheckFunctionExists.obj
-        LINK : fatal error LNK1104: cannot open file 'pthreads.lib' [C:\\Users\\28WonjunY\\Physics Sim\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qvwuor\\cmTC_f09fb.vcxproj]
-        Done Building Project "C:\\Users\\28WonjunY\\Physics Sim\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qvwuor\\cmTC_f09fb.vcxproj" (default targets) -- FAILED.
+          C:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\VC\\Tools\\MSVC\\14.51.36231\\bin\\HostX86\\x86\\link.exe /OUT:"C:\\Users\\28WonjunY\\Physics Sim\\build\\CMakeFiles\\CMakeScratch\\TryCompile-074nff\\Debug\\cmTC_8fad7.exe" /INCREMENTAL /ILK:"cmTC_8fad7.dir\\Debug\\cmTC_8fad7.ilk" /NOLOGO pthreads.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/28WonjunY/Physics Sim/build/CMakeFiles/CMakeScratch/TryCompile-074nff/Debug/cmTC_8fad7.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/28WonjunY/Physics Sim/build/CMakeFiles/CMakeScratch/TryCompile-074nff/Debug/cmTC_8fad7.lib" /MACHINE:X86  /machine:X86 cmTC_8fad7.dir\\Debug\\CheckFunctionExists.obj
+        LINK : fatal error LNK1104: cannot open file 'pthreads.lib' [C:\\Users\\28WonjunY\\Physics Sim\\build\\CMakeFiles\\CMakeScratch\\TryCompile-074nff\\cmTC_8fad7.vcxproj]
+        Done Building Project "C:\\Users\\28WonjunY\\Physics Sim\\build\\CMakeFiles\\CMakeScratch\\TryCompile-074nff\\cmTC_8fad7.vcxproj" (default targets) -- FAILED.
         
         Build FAILED.
         
-        "C:\\Users\\28WonjunY\\Physics Sim\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qvwuor\\cmTC_f09fb.vcxproj" (default target) (1) ->
+        "C:\\Users\\28WonjunY\\Physics Sim\\build\\CMakeFiles\\CMakeScratch\\TryCompile-074nff\\cmTC_8fad7.vcxproj" (default target) (1) ->
         (Link target) -> 
-          LINK : fatal error LNK1104: cannot open file 'pthreads.lib' [C:\\Users\\28WonjunY\\Physics Sim\\build\\CMakeFiles\\CMakeScratch\\TryCompile-qvwuor\\cmTC_f09fb.vcxproj]
+          LINK : fatal error LNK1104: cannot open file 'pthreads.lib' [C:\\Users\\28WonjunY\\Physics Sim\\build\\CMakeFiles\\CMakeScratch\\TryCompile-074nff\\cmTC_8fad7.vcxproj]
         
             0 Warning(s)
             1 Error(s)
         
-        Time Elapsed 00:00:00.60
+        Time Elapsed 00:00:00.73
         
       exitCode: 1
   -
@@ -2216,8 +2212,8 @@ events:
     checks:
       - "Looking for pthread_create in pthread"
     directories:
-      source: "C:/Users/28WonjunY/Physics Sim/build/CMakeFiles/CMakeScratch/TryCompile-n5aezc"
-      binary: "C:/Users/28WonjunY/Physics Sim/build/CMakeFiles/CMakeScratch/TryCompile-n5aezc"
+      source: "C:/Users/28WonjunY/Physics Sim/build/CMakeFiles/CMakeScratch/TryCompile-79ig4x"
+      binary: "C:/Users/28WonjunY/Physics Sim/build/CMakeFiles/CMakeScratch/TryCompile-79ig4x"
     cmakeVariables:
       CMAKE_CXX_STDLIB_MODULES_JSON: ""
       CMAKE_C_FLAGS: "/DWIN32 /D_WINDOWS /W3"
@@ -2228,41 +2224,41 @@ events:
       variable: "CMAKE_HAVE_PTHREAD_CREATE"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/28WonjunY/Physics Sim/build/CMakeFiles/CMakeScratch/TryCompile-n5aezc'
+        Change Dir: 'C:/Users/28WonjunY/Physics Sim/build/CMakeFiles/CMakeScratch/TryCompile-79ig4x'
         
-        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/18/Insiders/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_a17e6.vcxproj /p:Configuration=Debug /p:Platform=win32 /p:VisualStudioVersion=18.0 /v:n
+        Run Build Command(s): "C:/Program Files/Microsoft Visual Studio/18/Insiders/MSBuild/Current/Bin/amd64/MSBuild.exe" cmTC_e3984.vcxproj /p:Configuration=Debug /p:Platform=win32 /p:VisualStudioVersion=18.0 /v:n
         MSBuild version 18.6.3+84d3e95b4 for .NET Framework
-        Build started 5/12/2026 11:15:10 AM.
+        Build started 5/12/2026 1:24:13 PM.
         
-        Project "C:\\Users\\28WonjunY\\Physics Sim\\build\\CMakeFiles\\CMakeScratch\\TryCompile-n5aezc\\cmTC_a17e6.vcxproj" on node 1 (default targets).
+        Project "C:\\Users\\28WonjunY\\Physics Sim\\build\\CMakeFiles\\CMakeScratch\\TryCompile-79ig4x\\cmTC_e3984.vcxproj" on node 1 (default targets).
         PrepareForBuild:
           Structured output is enabled. The formatting of compiler diagnostics will reflect the error hierarchy. See https://aka.ms/cpp/structured-output for more details.
-          Creating directory "C:\\Users\\28WonjunY\\Physics Sim\\build\\CMakeFiles\\CMakeScratch\\TryCompile-n5aezc\\Debug\\".
-          Creating directory "cmTC_a17e6.dir\\Debug\\cmTC_a17e6.tlog\\".
+          Creating directory "C:\\Users\\28WonjunY\\Physics Sim\\build\\CMakeFiles\\CMakeScratch\\TryCompile-79ig4x\\Debug\\".
+          Creating directory "cmTC_e3984.dir\\Debug\\cmTC_e3984.tlog\\".
         InitializeBuildStatus:
-          Creating "cmTC_a17e6.dir\\Debug\\cmTC_a17e6.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
-          Touching "cmTC_a17e6.dir\\Debug\\cmTC_a17e6.tlog\\unsuccessfulbuild".
+          Creating "cmTC_e3984.dir\\Debug\\cmTC_e3984.tlog\\unsuccessfulbuild" because "AlwaysCreate" was specified.
+          Touching "cmTC_e3984.dir\\Debug\\cmTC_e3984.tlog\\unsuccessfulbuild".
         ClCompile:
-          C:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\VC\\Tools\\MSVC\\14.51.36231\\bin\\HostX86\\x86\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_a17e6.dir\\Debug\\\\" /Fd"cmTC_a17e6.dir\\Debug\\vc145.pdb" /external:W3 /TC /analyze- /errorReport:queue "C:\\Users\\28WonjunY\\Physics Sim\\build\\CMakeFiles\\CMakeScratch\\TryCompile-n5aezc\\CheckFunctionExists.c"
+          C:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\VC\\Tools\\MSVC\\14.51.36231\\bin\\HostX86\\x86\\CL.exe /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_e3984.dir\\Debug\\\\" /Fd"cmTC_e3984.dir\\Debug\\vc145.pdb" /external:W3 /TC /analyze- /errorReport:queue "C:\\Users\\28WonjunY\\Physics Sim\\build\\CMakeFiles\\CMakeScratch\\TryCompile-79ig4x\\CheckFunctionExists.c"
           Microsoft (R) C/C++ Optimizing Compiler Version 19.51.36241 for x86
           Copyright (C) Microsoft Corporation.  All rights reserved.
-          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_a17e6.dir\\Debug\\\\" /Fd"cmTC_a17e6.dir\\Debug\\vc145.pdb" /external:W3 /TC /analyze- /errorReport:queue "C:\\Users\\28WonjunY\\Physics Sim\\build\\CMakeFiles\\CMakeScratch\\TryCompile-n5aezc\\CheckFunctionExists.c"
+          cl /c /Zi /W3 /WX- /diagnostics:column /Od /Ob0 /Oy- /D _MBCS /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=pthread_create /D _MBCS /D "CMAKE_INTDIR=\\"Debug\\"" /RTC1 /MDd /Fo"cmTC_e3984.dir\\Debug\\\\" /Fd"cmTC_e3984.dir\\Debug\\vc145.pdb" /external:W3 /TC /analyze- /errorReport:queue "C:\\Users\\28WonjunY\\Physics Sim\\build\\CMakeFiles\\CMakeScratch\\TryCompile-79ig4x\\CheckFunctionExists.c"
           CheckFunctionExists.c
         Link:
-          C:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\VC\\Tools\\MSVC\\14.51.36231\\bin\\HostX86\\x86\\link.exe /OUT:"C:\\Users\\28WonjunY\\Physics Sim\\build\\CMakeFiles\\CMakeScratch\\TryCompile-n5aezc\\Debug\\cmTC_a17e6.exe" /INCREMENTAL /ILK:"cmTC_a17e6.dir\\Debug\\cmTC_a17e6.ilk" /NOLOGO pthread.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/28WonjunY/Physics Sim/build/CMakeFiles/CMakeScratch/TryCompile-n5aezc/Debug/cmTC_a17e6.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/28WonjunY/Physics Sim/build/CMakeFiles/CMakeScratch/TryCompile-n5aezc/Debug/cmTC_a17e6.lib" /MACHINE:X86  /machine:X86 cmTC_a17e6.dir\\Debug\\CheckFunctionExists.obj
-        LINK : fatal error LNK1104: cannot open file 'pthread.lib' [C:\\Users\\28WonjunY\\Physics Sim\\build\\CMakeFiles\\CMakeScratch\\TryCompile-n5aezc\\cmTC_a17e6.vcxproj]
-        Done Building Project "C:\\Users\\28WonjunY\\Physics Sim\\build\\CMakeFiles\\CMakeScratch\\TryCompile-n5aezc\\cmTC_a17e6.vcxproj" (default targets) -- FAILED.
+          C:\\Program Files\\Microsoft Visual Studio\\18\\Insiders\\VC\\Tools\\MSVC\\14.51.36231\\bin\\HostX86\\x86\\link.exe /OUT:"C:\\Users\\28WonjunY\\Physics Sim\\build\\CMakeFiles\\CMakeScratch\\TryCompile-79ig4x\\Debug\\cmTC_e3984.exe" /INCREMENTAL /ILK:"cmTC_e3984.dir\\Debug\\cmTC_e3984.ilk" /NOLOGO pthread.lib kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:/Users/28WonjunY/Physics Sim/build/CMakeFiles/CMakeScratch/TryCompile-79ig4x/Debug/cmTC_e3984.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /IMPLIB:"C:/Users/28WonjunY/Physics Sim/build/CMakeFiles/CMakeScratch/TryCompile-79ig4x/Debug/cmTC_e3984.lib" /MACHINE:X86  /machine:X86 cmTC_e3984.dir\\Debug\\CheckFunctionExists.obj
+        LINK : fatal error LNK1104: cannot open file 'pthread.lib' [C:\\Users\\28WonjunY\\Physics Sim\\build\\CMakeFiles\\CMakeScratch\\TryCompile-79ig4x\\cmTC_e3984.vcxproj]
+        Done Building Project "C:\\Users\\28WonjunY\\Physics Sim\\build\\CMakeFiles\\CMakeScratch\\TryCompile-79ig4x\\cmTC_e3984.vcxproj" (default targets) -- FAILED.
         
         Build FAILED.
         
-        "C:\\Users\\28WonjunY\\Physics Sim\\build\\CMakeFiles\\CMakeScratch\\TryCompile-n5aezc\\cmTC_a17e6.vcxproj" (default target) (1) ->
+        "C:\\Users\\28WonjunY\\Physics Sim\\build\\CMakeFiles\\CMakeScratch\\TryCompile-79ig4x\\cmTC_e3984.vcxproj" (default target) (1) ->
         (Link target) -> 
-          LINK : fatal error LNK1104: cannot open file 'pthread.lib' [C:\\Users\\28WonjunY\\Physics Sim\\build\\CMakeFiles\\CMakeScratch\\TryCompile-n5aezc\\cmTC_a17e6.vcxproj]
+          LINK : fatal error LNK1104: cannot open file 'pthread.lib' [C:\\Users\\28WonjunY\\Physics Sim\\build\\CMakeFiles\\CMakeScratch\\TryCompile-79ig4x\\cmTC_e3984.vcxproj]
         
             0 Warning(s)
             1 Error(s)
         
-        Time Elapsed 00:00:00.58
+        Time Elapsed 00:00:00.72
         
       exitCode: 1
 ...

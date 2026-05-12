@@ -1,0 +1,8 @@
+================================================================================
+Linker Errors
+Generated: 2026-05-12T05:55:23.772Z
+Total Errors: 1
+================================================================================
+
+[LNK1168] (MSVC)
+cannot open C:\Users\28WonjunY\Physics Sim\build\Debug\GR_Simulation.exe for writing [C:\Users\28WonjunY\Physics Sim\build\GR_Simulation.vcxproj]
